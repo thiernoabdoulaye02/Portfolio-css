@@ -1,0 +1,189 @@
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navmenu{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    font-size: 20px;
+    
+}
+.navmenu a{
+    text-decoration: none;
+    color: #25343F;
+    
+    &:hover{
+        cursor: pointer;
+        color: #4E8D9C;
+
+    }
+}
+.info{
+    font-size: 20px;
+}
+
+    
+
+.Logo{
+    margin-top: 20px;
+    font-size: 30px;
+}
+#Home{
+    display: flex;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+.imageprofil{
+    margin-right: 30px;
+   margin-top: 30px;
+ 
+    
+}
+.ip{
+    border: none;
+    border-radius: 50%;
+}
+
+.monnom{
+    font-size: 100px;
+}
+.web{
+    color: rgb(74, 143, 120);
+}
+.expertise{
+    display: flex;
+ align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    line-height: 0;
+}
+.me{
+    font-size: 50px;
+   
+   margin-top: 15px;
+}
+.carte{
+     
+
+ padding: 10px;
+ border-radius: 10px;
+ width: 550px;
+ margin-left: 30px;
+ background-color: whitesmoke;
+ margin-top: 70px;
+ transition: 0.5s;
+ 
+ 
+ 
+
+ &:hover{
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+    
+ }
+
+
+}
+.git{
+    font-size: 40px;
+}
+.hub{
+    font-size: 35px;
+    color: #4E8D9C;
+
+}
+.comment{
+    font-size: 20px;
+}
+.vs{
+    font-size: 40px;
+    
+}
+.code{
+ color: #C44A3A ;
+}
+.html5{
+    font-size: 35px;
+    color:#1A2CA3 ;
+}
+.html{
+    font-size: 40px;
+}
+.ss{
+    font-size: 35px;
+    color: #213C51;
+}
+.css{
+    font-size: 40px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.portfolio{
+    font-size: 25px;
+    color: gray;
+    
+}
+.acw{
+    font-size: 50px;
+    margin-left: 10px;
+}
+.works-comment{
+    line-height: 20px;
+    margin-left: 30px;
+}
+.image1{
+    border-radius: 30px;
+    margin-left: 60px;
+    
+}
+
+.overlay{
+    position: absolute;
+   width: 100px;
+   height: 200px;
+   color: #C44A3A;
+}
+.card:hover .overly{
+    opacity:1;
+}
+
+
+.myproject{
+    display: flex;
+    flex-direction: row;
+    
+  justify-content: space-around;
+}
+.About-box{
+    background-color: #eceff8;
+    padding:20px;
+    border-radius: 40px;
+    max-width: 800px;
+   height: 700px;
+
+}
+
+.box-contact{
+      background-color: #cdedf5;
+    padding:20px;
+    border-radius: 50px;
+    width: 1200px;
+   height: 400px;
+   margin-left: 100px;
+
+}
+.contact-comment{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
